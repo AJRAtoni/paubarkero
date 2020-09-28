@@ -6,10 +6,10 @@ var config = {};
 /*-------------------------------------------------------------------*/
 
 config.formMessages = {
-    sent          : 'Message sent successfully. Thanks!',
-    fail          : 'Oops! Sending error. Please try again',
-    failEmail     : 'Invalid Email!',
-    emptyFields   : 'Complete all the required fields!!'
+    sent          : 'Mensaje enviado correctamente. Gracias!',
+    fail          : 'Oops! Hay algun error. Intentalo de nuevo',
+    failEmail     : 'Email invalido!',
+    emptyFields   : 'Completa todos los campos requeridos!!'
 };
 
 /*-------------------------------------------------------------------*/
