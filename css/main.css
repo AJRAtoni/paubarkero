@@ -909,7 +909,6 @@ h6 i {
     text-align: center;
     text-transform: uppercase;
     border-top: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
 }
 
 .section-title h2 {
@@ -2735,7 +2734,7 @@ hr.lg-divider {
 .dark .title-tab a,
 .dark ul.tags li a,
 .dark .info-work  {
-    background-color: #161616;
+    background-color: #202020;
 }
 
 .dark ul.social-links a:hover,
@@ -2757,7 +2756,7 @@ hr.lg-divider {
 
 .dark .section-title,
 .dark .content-toggle {
-    border-color: #161616;
+    border-color: #202020;
 }
 
 .dark .focus-title,
