@@ -384,18 +384,18 @@
 
                     <!-- ============ Appointment Form - START ============ -->
 
-                    <form id="request" class="contact-form popup mfp-hide" action="mailer/appointment.php" method="post">
+                    <form id="request" class="contact-form popup mfp-hide" action="https://usebasin.com/f/493f25fbe9a7" method="post">
 
                         <div class="head"><img src="img/logo.png" alt="logo"></div>
                         <h3 class="focus-title"><i class="fa fa-thumb-tack"></i>Haz tu cita</h3>
 
                         <label>
                             <strong>Nombre *</strong>
-                            <input class="required" type="text" name="first_name">
+                            <input class="required" type="text" name="Nombre">
                         </label>
                         <label>
                             <strong>Apellidos *</strong>
-                            <input class="required" type="text" name="last_name">
+                            <input class="required" type="text" name="Apellidos">
                         </label>
                         <label>
                             <strong>Email *</strong>
@@ -403,11 +403,11 @@
                         </label>
                         <label>
                             <strong>Telefono *</strong>
-                            <input class="required" type="text" name="phone">
+                            <input class="required" type="text" name="Telefono">
                         </label>
                         <label>
                             <strong>Parte del cuerpo</strong>
-                            <select name="part_body">
+                            <select name="Parte del cuerpo">
                                 <option value="Pierna">Pierna</option>
                                 <option value="Tobillo">Tobillo</option>
                                 <option value="Pie">Pie</option>
@@ -424,38 +424,33 @@
                         </label>
                         <label id="other" class="hidden-field">
                             <strong>Parte específica del cuerpo</strong>
-                            <input type="text" name="custom">
+                            <input type="text" name="Parte especifica">
                         </label>
                         <label><strong>Tamaño del Tattoo *</strong> (ex: 5x4)
-                            <input class="required" type="text" name="size">
+                            <input class="required" type="text" name="Tamaño">
                         </label>
                         <div class="radio label">
                             <strong>Tattoo Color</strong>
                             <label>
-                                <input type="radio" value="Black &amp; White" name="color" checked>
+                                <input type="radio" value="Black &amp; White" name="Color o Blanco y Negro" checked>
                                 <span class="radio-replacer"></span>
                                 <span>Blanco &amp; Negro</span>
                             </label>
                             <label>
-                                <input class="required" type="radio" value="Color" name="color">
+                                <input class="required" type="radio" value="Color" name="Color o Blanco y Negro">
                                 <span class="radio-replacer"></span>
                                 <span>Color</span>
                             </label>
                         </div>
                         <label><strong>Descripcion del Tattoo *</strong>
-                            <textarea class="required" name="description"></textarea>
+                            <textarea class="required" name="Descripcion"></textarea>
                         </label>
                       
-                        <hr>
-                         <label>
-                            <input class="required" type="checkbox" name="check">
-                            <span class="checkbox-replacer"></span>
-                            <strong>Marca para autorizar *</strong>
                         </label>
                         <hr>
                         <p>( <strong>*</strong> ) = Campo obligatorio</p>
                         <input class="submit btn md" type="submit" name="submit" value="Haz tu reserva">
-                        <input type="hidden" name="form_type" value="appointment">
+                        <input type="hidden" name="form_type" value="Reserva">
 
                     </form>
 
@@ -480,7 +475,7 @@
 
                     <div class="content container">
 
-                        <form class="contact-form row" action="mailer/contact.php" method="post">
+                        <form class="contact-form row" action="https://usebasin.com/f/493f25fbe9a7" method="post">
                             <div class="col-md-6">
                                 <label><strong>Nombre *</strong>
                                     <input class="required" type="text" name="name">
