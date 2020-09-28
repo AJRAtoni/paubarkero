@@ -7,7 +7,7 @@
 
 /* =========================================== MAIN RECIPIENT  =========================================== */
 
-$to = 'ajra.toni@icloud.com';						// TODO: Replace with your main email
+$to = 'tusoluciononline@icloud.com';						// TODO: Replace with your main email
 
 /* ========================================= APPOINTMENT FORM ============================================ */
 
