@@ -7,7 +7,7 @@
 
 /* =========================================== MAIN RECIPIENT  =========================================== */
 
-$to = 'tusoluciononline@icloud.com';						// TODO: Replace with your main email
+$to = 'ajra.toni@icloud.com';						// TODO: Replace with your main email
 
 /* ========================================= APPOINTMENT FORM ============================================ */
 
@@ -19,9 +19,9 @@ $artists_email = array(
 
 /* ============================================ SMTP SETTINGS ============================================ */
 
-$smtp = false;							// Set TRUE if you want use a custom smtp server
-$smtp_username = '';					// Add your smtp username
-$smtp_password = '';					// Add your smtp password
-$smtp_host = '';						// Set the hostname of the mail server (ex. smtp.gmail.com)
-$smtp_port = '';						// Set the SMTP port number - likely to be 25, 465 or 587
+$smtp = true;							// Set TRUE if you want use a custom smtp server
+$smtp_username = '1fba9d8d53fd7b';					// Add your smtp username
+$smtp_password = '55f8802894ff74';					// Add your smtp password
+$smtp_host = 'pop3.mailtrap.io';						// Set the hostname of the mail server (ex. smtp.gmail.com)
+$smtp_port = '1100';						// Set the SMTP port number - likely to be 25, 465 or 587
 $smtp_secure = '';						// Set the encryption system to use. Accepted values: 'ssl' or 'tls'
